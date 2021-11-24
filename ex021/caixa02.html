@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #904e55;
+            margin: 0px;
+        }
+        header{
+            background-color: #f2efe9;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.349);
+        }
+        nav{
+            background-color: #252627;
+            padding: 2px 2px 2px 20px;
+            margin: 0px;
+            border-radius: 4px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.349);
+        }
+        nav > a{
+            text-decoration: none;
+            color: #f2efe9;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        nav > a:hover{
+            color: #904e55;
+            text-decoration: underline;
+            font-weight: bolder;
+        }
+        main{
+            background-color: #f2efe9;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.349);
+        }
+        article{
+            background-color: #f2efe9;
+        }
+        article > aside{
+            background-color: red;
+        }
+        footer{
+            background-color: #564e58;
+            color: #fff;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        #bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px auto;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Título</h1>
+        <nav>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 4</a>
+            <a href="#">Link 5</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <!--nav>
+                <a href="#">Esportes</a>
+                <a href="#">Política</a>
+                <a href="#">Tecnologia</a>
+            </nav-->
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias de teste</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, commodi beatae dicta numquam veniam sunt voluptate quia veritatis odio quam nesciunt dolorem saepe rerum accusantium dolorum! Delectus alias necessitatibus repellat.</p>
+            </article>
+            <article>
+                <p>Editado pelo testador</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido para teste</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
